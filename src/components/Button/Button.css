@@ -4,8 +4,16 @@
     width: 28.7rem;
     height: 8.7rem;
     background-color: var(--buttonColor);
+    color: var(--font);
     font-family: var(--east);
     font-size: 3.6rem;
     border-radius: 50rem;
+    border: none;
+}
+
+
+.slim {
+    width: 27.9rem;
+    height: 5.4rem;
     border: none;
 }

@@ -65,7 +65,7 @@ export default function MyWork() {
                     </p>
                 </div>
             </div>
-            <Button>know more about me</Button>
+            <Button variant="slim">know more about me</Button>
         </section>
     );
 }
