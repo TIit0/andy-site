@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=East+Sea+Dokdo&family=Inter:wght@400;600;700&family=Lato:wght@300;700&family=Roboto&display=swap');
+
+:root {
+
+  /* Colors Start */
+  --mainBackground: #F3F1EA;
+  --secondaryBackground: #CDDBCE;
+  --buttonColor: #C8BDD1;
+  --font: #292929;
+  /* Colors End */
+
+  /* Fonts Start */
+  --dongle: 'Dongle', sans-serif;
+  --east: 'East Sea Dokdo', cursive;
+  --inter: 'Inter', sans-serif;
+  --lato: 'Lato', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+  /* Fonts End */
+
+
+}
+
+
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--mainBackground);
+
+  padding: 5rem;
+}
+
+

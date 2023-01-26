@@ -1,0 +1,51 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.1rem;
+}
+
+.header__icon-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__icon-container__logo {
+    margin-right: 2.6rem;
+}
+
+.header__icon-container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.header__icon-container__text--name {
+    font-family: var(--dongle);
+    font-size: 4rem;
+}
+
+.header__icon-container__text--ocupation {
+    margin-top: -1.8rem;
+    font-family: var(--lato);
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.header__whats-app__container {
+    display: flex; 
+    align-items: center;
+}
+
+.header__whats-app__container--img {
+    margin-right: .5rem;
+}
+
+.header__whats-app__container--img {
+    font-family: var(--lato);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
