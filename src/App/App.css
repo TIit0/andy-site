@@ -17,7 +17,9 @@
   --roboto: 'Roboto', sans-serif;
   /* Fonts End */
 
-
+  /* units */
+  --normal-padding: 5rem;
+  --vertical-padding: 3rem 0;
 }
 
 
@@ -40,8 +42,6 @@ body {
 .App {
   min-height: 100vh;
   background-color: var(--mainBackground);
-
-  padding: 5rem;
 }
 
 
