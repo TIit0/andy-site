@@ -45,4 +45,19 @@ body {
   background-color: var(--mainBackground);
 }
 
+a:visited {
+  color: var(--font);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 

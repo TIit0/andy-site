@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
 import MyWork from '../components/MyWork/MyWork';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
+import Footer from '../components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <MyWork />
       <HowItWorks />
+      <Footer />
     </div>
   );
 }
