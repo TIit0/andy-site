@@ -2,20 +2,26 @@
 import "./Button.css"
 
 export default function Button(props) {
-    const {children, variant = "" } = props;
+    const {children, variant = "", setIsModalOpen} = props;
 
    /* can be replaced by a switch if more buttons are needed in the future  */
     return (
         variant === "slim" ? 
-        <button className={`button ${variant}`}>
+        <button
+        type="button"
+        className={`button ${variant}`}
+        onClick={() => setIsModalOpen(true)}
+        >
             {children}
         </button>
         :
-        <button className={`button`}>
+        <button
+        type="button"
+        className={`button`}>
             <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.youtube.com/watch?v=PKwu15ldZ7k"
+            href="https://calendly.com/mariaromanza"
             >{children}
             </a>
         </button>

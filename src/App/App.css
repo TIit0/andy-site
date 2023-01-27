@@ -45,6 +45,10 @@ body {
   background-color: var(--mainBackground);
 }
 
+a {
+  color: var(--font);
+}
+
 a:visited {
   color: var(--font);
 }

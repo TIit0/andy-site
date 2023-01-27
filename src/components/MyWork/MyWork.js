@@ -5,7 +5,7 @@ import personalityDisorder from "../../utils/imgs/personality-disorder.png"
 import anxiety from "../../utils/imgs/anxiety.png"
 import overthinking from "../../utils/imgs/overthinking.png"
 
-export default function MyWork() {
+export default function MyWork({setIsModalOpen}) {
     return (
         <section className="my-work">
             <h3 className="my-work__h3">
@@ -65,7 +65,11 @@ export default function MyWork() {
                     </p>
                 </div>
             </div>
-            <Button variant="slim">know more about me</Button>
+            <Button
+            setIsModalOpen={setIsModalOpen}
+            variant="slim"
+            >know more about me
+            </Button>
         </section>
     );
 }
