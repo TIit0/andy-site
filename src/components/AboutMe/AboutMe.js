@@ -2,6 +2,7 @@
 import "./AboutMe.css"
 import ReactDom from "react-dom";
 import profilePic from "../../utils/imgs/placeholder.jpg"
+import certificationLogo from "../../utils/imgs/certification-logo.png"
 
 
 export default function AboutMe({ setIsModalOpen }) {
@@ -27,6 +28,7 @@ export default function AboutMe({ setIsModalOpen }) {
                 <div className="about-me__content__information">
                     <div className="about-me__content__information__me">
                         <img
+                        alt=" a picture of me"
                             src={profilePic}
                             className="about-me__content__information__me--img"
                         />
@@ -39,7 +41,18 @@ export default function AboutMe({ setIsModalOpen }) {
                     </div>
                 </div>
                 <div className="about-me__content__information__certification">
-
+                    <img
+                    alt="certification logo"
+                    src={certificationLogo}
+                    className="about-me__content__information__certification"/>
+                    <img
+                    alt="certification logo"
+                    src={certificationLogo}
+                    className="about-me__content__information__certification"/>
+                    <img
+                    alt="certification logo"
+                    src={certificationLogo}
+                    className="about-me__content__information__certification"/>
                 </div>
             </div>
         </>,

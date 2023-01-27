@@ -10,7 +10,8 @@
 
 .header__icon-container {
     display: flex;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header__icon-container__logo {
@@ -50,4 +51,21 @@
     font-family: var(--lato);
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 84.375em) { /* 1350px*/
+
+    .header {
+        margin-bottom: 4.4rem;
+        padding: var(--tablet-padding);
+    }
+
+    .header__icon-container__logo {
+        height: 5.9rem;
+        width: 6.6rem;
+    }
+
+    .header__icon-container__text--name { font-size: 3.6rem; }
+
+    .header__icon-container__text--ocupation { font-size: 1.4rem; }
 }

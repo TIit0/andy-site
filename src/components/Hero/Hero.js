@@ -11,7 +11,11 @@ export default function Hero() {
                     Sometimes there will be people who won't understand your journey.
                     That's okay, it's not for them.
                 </h1>
-                <img src={cloud} alt="decorative cloud" />
+                <img
+                src={cloud}
+                alt="decorative cloud"
+                className="hero__h1-wrapper__img"
+                />
             </div>
             <div className="hero__button-wrapper">
                 <Button>Begin your journey</Button>

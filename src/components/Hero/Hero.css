@@ -1,4 +1,3 @@
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -45,4 +44,50 @@
     min-height: 14.4rem;
 
     margin: 6rem auto 9rem;
+}
+
+
+
+@media only screen and (max-width: 84.375em) {
+    /* 1350px*/
+
+    .hero {
+        padding: var(--tablet-padding);
+    }
+
+    .hero__h1-wrapper__h1 {
+        font-size: 4.8rem;
+        max-width: 76.4rem;
+        font-weight: 400;
+    }
+
+    .hero__h1-wrapper__img {
+        display: none;
+    }
+
+    .hero__button-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin-top: 2.6rem;
+    }
+
+    .hero__button-wrapper__img {
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero__h2 {
+        text-align: center;
+        font-size: 3.2rem;
+        max-width: 56.3rem;
+        min-height: 11.7rem;
+        margin: 8rem auto 5rem;
+    }
+
 }

@@ -61,3 +61,10 @@
     font-weight: 400;
     font-size: 2rem;
 }
+
+.about-me__content__information__certification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5.8rem;
+}

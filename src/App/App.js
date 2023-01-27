@@ -9,7 +9,7 @@ import AboutMe from '../components/AboutMe/AboutMe';
 import { useState } from 'react';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   console.log(isModalOpen);
 
   return (
