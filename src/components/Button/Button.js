@@ -21,7 +21,7 @@ export default function Button(props) {
             <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://calendly.com/mariaromanza"
+            href="https://calendly.com/sammy1996"
             >{children}
             </a>
         </button>

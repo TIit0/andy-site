@@ -89,3 +89,33 @@
 
     .how__card__text-container--description { font-size: 1.6rem; }
 }
+
+@media only screen and (max-width: 51.5625em) {
+    /* 825px*/
+    .how__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        justify-content: space-between;
+    
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 29.6875em) {
+    /* 475px*/
+
+    .how__h2 { font-size: 1.6rem; }
+
+    .how__card__text-container { max-width: 33rem; }
+
+    .how__card__text-container--question { font-size: 1.4rem; }
+
+    .how__card__text-container--step { font-size: 1.6rem; }
+
+    .how__card__text-container--description { font-size: 1.2rem; }
+}
+

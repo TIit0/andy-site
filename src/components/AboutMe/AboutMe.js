@@ -34,25 +34,25 @@ export default function AboutMe({ setIsModalOpen }) {
                         />
 
                         <p className="about-me__content__information__me--text">
-                            Soy Andrea Unrath y me especializo en psicologia xyzyxzxyz y estoy aqui para ayudarte y acompa;arte durante tu camino.
+                            Soy Andrea Unrath y me especializo en psicologia xyzyxzxyz y estoy aqui para ayudarte y acompañarte durante tu camino.
                             Me gradue de la universidad de ITESO en psicologia y tengo una maestria en psicologia analtica y clinica.
                             Me encanta analizar y estar en contacto con la gente para asi poder darme una idea de donde estoy parada como persona y demas.
                         </p>
                     </div>
                 </div>
-                <div className="about-me__content__information__certification">
+                <div className="about-me__content__certifications">
                     <img
                     alt="certification logo"
                     src={certificationLogo}
-                    className="about-me__content__information__certification"/>
+                    className="about-me__content__certification"/>
                     <img
                     alt="certification logo"
                     src={certificationLogo}
-                    className="about-me__content__information__certification"/>
+                    className="about-me__content__certification"/>
                     <img
                     alt="certification logo"
                     src={certificationLogo}
-                    className="about-me__content__information__certification"/>
+                    className="about-me__content__certification"/>
                 </div>
             </div>
         </>,
