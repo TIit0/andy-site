@@ -64,3 +64,18 @@
     }
 
 }
+
+@media only screen and (max-width: 37.1875em) {
+    /* 595px*/
+
+    .footer {
+        background-image: url("../../utils/imgs/footer-background-mobile.png");
+    }
+
+    .footer--text {
+        font-size: 2rem;
+        max-width: 26.7rem;
+        margin-top: 19.4rem;
+        margin-bottom: 4.7rem;
+    }
+}
