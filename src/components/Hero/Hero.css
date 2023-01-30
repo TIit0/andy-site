@@ -91,3 +91,29 @@
     }
 
 }
+
+@media only screen and (max-width: 43.125em) {
+    /* 690px*/
+
+    .hero__h1-wrapper__h1 {
+        font-size: 3.2rem;
+        max-width: 69rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 37.1875em) {
+    /* 595px*/
+
+    .hero__h1-wrapper__h1 { font-size: 2rem; }
+
+    .hero__h2 {
+        text-align: center;
+        word-break: break-word;
+        font-size: 1.6rem;
+        max-width: 22.4rem;
+        min-height: 7.6rem;
+        margin: 6.3rem auto 5rem;
+    }
+}

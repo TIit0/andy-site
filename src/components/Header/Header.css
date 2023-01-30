@@ -47,7 +47,7 @@
     margin-right: .5rem;
 }
 
-.header__whats-app__container--img {
+.header__whats-app__container--text {
     font-family: var(--lato);
     font-weight: 700;
     font-size: 1.6rem;
@@ -68,4 +68,30 @@
     .header__icon-container__text--name { font-size: 3.6rem; }
 
     .header__icon-container__text--ocupation { font-size: 1.4rem; }
+
+    .header__whats-app__container--text {  font-size: 1.4rem; }
+}
+
+@media only screen and (max-width: 43.125em) {
+    /* 690px*/
+
+    .header {
+        margin-bottom: 4.4rem;
+        padding: var(--tablet-padding);
+    }
+
+    .header__icon-container__logo {
+        height: 3.3rem;
+        width: 4.5rem;
+        margin-right: 1.7rem;
+    }
+
+    .header__icon-container__text--name { font-size: 2rem; }
+
+    .header__icon-container__text--ocupation {
+        margin-top: -.7rem;
+        font-size: 1rem;
+    }
+
+    .header__whats-app__container--text {  font-size: 1.2rem; }
 }

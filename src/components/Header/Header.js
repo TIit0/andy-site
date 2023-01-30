@@ -25,7 +25,7 @@ export default function Header() {
                 alt="whats app logo"
                 className="header__whats-app__container--img" />
                 <p
-                className="header__whats-app__container--img"
+                className="header__whats-app__container--text"
                 >+52 33 3256 6989
                 </p>
             </div>
