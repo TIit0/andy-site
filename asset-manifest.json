@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/andy-site/static/css/main.765a3ef2.css",
-    "main.js": "/andy-site/static/js/main.61f43600.js",
+    "main.css": "/andy-site/static/css/main.179890e2.css",
+    "main.js": "/andy-site/static/js/main.7dd86162.js",
     "static/js/787.9c767d1f.chunk.js": "/andy-site/static/js/787.9c767d1f.chunk.js",
-    "static/media/placeholder.jpg": "/andy-site/static/media/placeholder.3677537c78f4baa394b3.jpg",
+    "static/media/kida.jpg": "/andy-site/static/media/kida.7d579b630759a1f8d605.jpg",
     "static/media/footer-background-tablet.png": "/andy-site/static/media/footer-background-tablet.93d397403bf40ccbff12.png",
     "static/media/footer-background-mobile.png": "/andy-site/static/media/footer-background-mobile.093d921ae9a16672d6b1.png",
     "static/media/you-did-it.png": "/andy-site/static/media/you-did-it.c291c643c9ffb5ca2ae7.png",
@@ -13,12 +13,12 @@
     "static/media/find-root.png": "/andy-site/static/media/find-root.e8cfe9c0f44fe714de14.png",
     "static/media/growth.png": "/andy-site/static/media/growth.4f4af65a7ea09ccb7e1a.png",
     "index.html": "/andy-site/index.html",
-    "main.765a3ef2.css.map": "/andy-site/static/css/main.765a3ef2.css.map",
-    "main.61f43600.js.map": "/andy-site/static/js/main.61f43600.js.map",
+    "main.179890e2.css.map": "/andy-site/static/css/main.179890e2.css.map",
+    "main.7dd86162.js.map": "/andy-site/static/js/main.7dd86162.js.map",
     "787.9c767d1f.chunk.js.map": "/andy-site/static/js/787.9c767d1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.765a3ef2.css",
-    "static/js/main.61f43600.js"
+    "static/css/main.179890e2.css",
+    "static/js/main.7dd86162.js"
   ]
 }
